@@ -24,9 +24,6 @@ public class CargaInformacion {
     @FindBy(xpath = "//input[@id='imObjectForm_1_2']")
     private WebElement campoTexto;
 
-    @FindBy(xpath = "//input[@id='imObjectForm_1_3']")
-    private WebElement campoCorreo;
-
     @FindBy(xpath = "//textarea[@id='imObjectForm_1_4']")
     private WebElement campoTextArea;
 
@@ -82,10 +79,6 @@ public class CargaInformacion {
 
     public void rellenarCampoTexto(String texto) {
         campoTexto.sendKeys(texto);
-    }
-
-    public void rellenarCampoMail(String mail) {
-        campoCorreo.sendKeys(mail);
     }
 
     public void rellenarCampoAreaTexto(String areaTexto) {

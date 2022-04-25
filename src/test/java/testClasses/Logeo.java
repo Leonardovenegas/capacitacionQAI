@@ -18,7 +18,7 @@ public class Logeo {
     public Logeo(){
     }
 
-    public void CasoLogin1(String usuario, String clave) throws ParseException, IOException {
+    public void CasoLogin1(String usuario, String clave) {
         login = new Login();
         cargaInformacion = new CargaInformacion();
         descargarArchivos = new DescargarArchivos();
