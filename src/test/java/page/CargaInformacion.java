@@ -18,7 +18,7 @@ import java.util.Date;
 
 public class CargaInformacion {
 
-    @FindBy(id = "imPgTitle")
+    @FindBy(id = "imPgTile")
     private WebElement titulo;
 
     @FindBy(xpath = "//input[@id='imObjectForm_1_2']")
