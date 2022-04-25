@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSuites.Prueba" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-25T15:31:29" hostname="LAPTOP-MUMLH26I" time="9.09">
+  <properties/>
+  <testcase name="pruebaLogin" classname="testSuites.Prueba" time="9.09"/>
+  <system-out><![CDATA[Se despliega correctamente el elemento input usuario, identificador: imUname
+Se despliega correctamente el elemento titulo, identificador: imPgTitle
+[PdfBciReport] closePDF
+[PdfBciReport] createTitlePage
+File: UHE17DH9ND5CEU0 Not found
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
